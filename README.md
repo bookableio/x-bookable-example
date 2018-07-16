@@ -12,4 +12,4 @@ $ npm start
 http://localhost:9000
 
 ## 웹페이지 소스코드
-[소스코드 보기](./www)
+[소스코드 보기](./docs)

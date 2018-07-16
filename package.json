@@ -7,8 +7,8 @@
   "author": "bookable <contact.bookable@gmail.com>",
   "license": "MPL-2.0",
   "scripts": {
-    "start": "static-server www -p 9000 --not-found ./www/index.html -i index.html -f",
-    "dev": "static-server www -p 9000 --not-found ./www/index.html -i index.html -f -z"
+    "start": "static-server docs -p 9000 --not-found ./docs/index.html -i index.html -f",
+    "dev": "static-server docs -p 9000 --not-found ./docs/index.html -i index.html -f -z"
   },
   "devDependencies": {
     "static-server": "^2.2.1"
