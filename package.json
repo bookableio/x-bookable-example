@@ -1,0 +1,16 @@
+{
+  "name": "x-bookable-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "x-bookable example website",
+  "repository": "bookableio/x-bookable-example",
+  "author": "bookable <contact.bookable@gmail.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "start": "static-server www -p 9000 --not-found ./www/index.html -i index.html -f",
+    "dev": "static-server www -p 9000 --not-found ./www/index.html -i index.html -f -z"
+  },
+  "devDependencies": {
+    "static-server": "^2.2.1"
+  }
+}
